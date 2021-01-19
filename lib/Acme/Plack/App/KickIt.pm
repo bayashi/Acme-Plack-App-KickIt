@@ -147,6 +147,9 @@ Acme::Plack::App::KickIt - Kick your ed
 
 Acme::Plack::App::KickIt is
 
+=head1 BOOKMARKLET
+
+    javascript:(function(){C=document.location.href;N=C.replace(/https:\/\/github\.com/, 'http://127.0.0.1:5000');open(N, '_blank');})()
 
 =head1 REPOSITORY
 
